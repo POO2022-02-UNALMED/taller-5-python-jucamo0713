@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test Constructores",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest testConstructores.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Test Cantidades",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest testCantidades.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Test Retornos",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest testRetornos.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
